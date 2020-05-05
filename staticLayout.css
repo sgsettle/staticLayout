@@ -1,0 +1,346 @@
+body {
+    font-family: 'Graphik', Arial, Helvetica, sans-serif;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #f5f6f7;
+    line-height: 1.5;
+    color: #292b2c;
+    height: 100%;
+    margin: 0px;
+}
+
+nav{
+position: fixed;
+width: 100vw;
+top: 0;
+left: 0;
+z-index: 1;
+} 
+
+.navBar{
+    top: 0;
+    position: fixed;
+    opacity: 1;
+}
+
+.nav-link{
+font-family: 'Graphik', Arial, Helvetica, sans-serif;
+color: white;
+text-decoration: none;
+float: left;
+display: block;
+font-size: 33px;
+margin: 5px;
+padding: 3px 15px 17px;
+}
+
+.login{
+font-family: 'Graphik', Arial, Helvetica, sans-serif;
+background: none;
+color: white;
+font-size: 18px;
+font-weight: 600;
+letter-spacing: 1px;
+padding: 15px 20px 17px;
+
+display: block;
+text-transform: uppercase;
+float: right;
+}
+
+.login1{
+    font-family: 'Graphik', Arial, Helvetica, sans-serif;
+color: white;
+text-decoration: none;
+float: left;
+display: block;
+font-size: 15px;
+margin: 5px;
+}
+
+  #picture1{
+      height: 70vh; 
+      width: 100vw;
+  }
+
+  .container{
+      position: relative;
+      text-align: center;
+      color: white;
+      width: 100vw;
+      height: 70vh;
+      background-image: url(https://www.hulu.com/static/hitch/s3/2020-04/Homepage_Masthead_Test_TREATMENT_3200x1320-v4a_Desktop.jpg?0JVNmto1KIbnRLXx6Mrda4TNGtVMXXLB);
+      background-size: cover;
+  }
+
+  .headline{
+      /* position: absolute; */
+      width: 100%;
+      display: block;
+      color: white;
+      line-height: 1.3;
+      z-index: 0;
+      /* padding: 40px 80px; */
+      margin-left: auto;
+      margin-right: auto;
+      /* top: 13%;
+      left: 13%;
+      transform: translate(-10%,-10%); */
+  }
+
+  h1{
+    text-align: center;
+    /* position: absolute; */
+     font-weight: 300;
+     margin-bottom: 10px;
+     margin-top: 0;
+     letter-spacing: -0.5px;
+     font-size: 60px;
+     line-height: 48px; 
+     padding-top: 125px;
+     /* top: 25%;
+     left: 20%; */
+  }
+
+  .subhead1{
+    /* position: absolute; */
+    text-align: center;
+    font-weight: 600;
+    margin-top: 8px;
+    font-size: 20px;
+    line-height: 24px;
+    justify-content: center;
+    width: 100%;
+    display: block;
+    color: white;
+    line-height: 1.3;
+    z-index: 0;
+    /* padding: 40px 80px; */
+    margin-left: auto;
+    margin-right: auto;
+    /* top: 37%;
+    left: 28%;
+    transform: translate(-30%,-30%); */
+  }
+
+  .subhead2{
+    text-align: center;
+      margin-top: 20px;
+      font-size: 10px;
+      line-height: 21px;
+      font-weight: normal;
+      font-size: 18px;
+      /* position: absolute; */
+      justify-content: center;
+      width: 100%;
+      display: block;
+      color: white;
+      line-height: 1.3;
+      z-index: 0;
+      /* padding: 40px 80px; */
+      margin-left: auto;
+      margin-right: auto;
+      /* top: 50%;
+      left: 38%;
+      transform: translate(-40%,-40%); */
+  }
+
+  .button{
+    display: inline-block;
+}
+
+  .trial{
+    text-transform: uppercase;
+    white-space: nowrap;
+    border-radius: 4px;
+    color: black;
+    background: white;
+    height: 46px;
+    width: 236px;
+    /* padding: 0 32px; */
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: auto;
+    /* position: absolute;
+    top: 65%;
+    left: 38%; */
+    /* margin: 0px -150px -60px 0px; */
+}
+
+  .legal{
+    /* position: absolute; */
+    text-align: center;
+    font-size: 12px;
+    margin-top: 16px;
+    opacity: 0.6;
+    justify-content: center;
+    /* width: 100%; */
+    display: block;
+    color: white;
+    line-height: 1.3;
+    z-index: 0;
+    /* padding: 60px 80px; */
+    margin-left: auto;
+    margin-right: auto;
+    /* top: 85%; */
+    /* left: 72%; */
+    /* transform: translate(-70%,-70%); */
+  }
+ 
+
+.ribbon{
+    background-image: linear-gradient(318.68deg, #0F495C 0%, #0D3640 49.72%, #08141F 100%);
+    /* padding: 28px 10px 28px 20px; */
+    z-index: 1;
+    width: 100%;
+    margin-top: 0 auto;
+    display: flex;
+    box-sizing: inherit;
+}
+
+.itemsRow{
+    align-items: center;
+    margin-top: 28px;
+    margin-left: 28px;
+    margin-right: 28px;
+    margin-bottom: 28px;
+    width: 100%;
+    max-width: 1520px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: inherit;
+}
+
+.image{
+    display: none;
+    padding: 0;
+    box-sizing: inherit;
+    margin-right: 5px;
+}
+
+#picture2{
+    max-width: 280px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-grow: 0;
+    order: 0;
+    vertical-align: middle;
+    border-style: none;
+    box-sizing: inherit;
+    margin-right: 20px;
+}
+
+.inside{
+    width: 100%;
+    align-items: left;
+    margin-top: 5px;
+    display: block;
+    flex-direction: column;
+    text-align: left;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 66.66667%;
+}
+
+.bundle{
+    color: #2DBD9D;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-bottom: 8px;
+    order: 0;
+    box-sizing: inherit;
+    display: block;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.price{
+    font-size: 25px;
+    line-height: 15px;
+    color: white;
+    box-sizing: inherit;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    display: block;
+    order: 1;
+}   
+
+.details{
+    color: white;
+    opacity: 0.7;
+    text-decoration: underline;
+    font-size: 14px;
+    line-height: 15px;
+    display: inline;
+    box-sizing: inherit;
+    text-align: left;
+    order: 4;
+    margin-top: 5px;
+}
+
+.ribbonButton{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: inherit;
+    display: block;
+    margin-left: -35px;
+}
+
+.buyNow{
+    font-size: 15px;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    display: block;
+    align-items: flex-start;
+    padding: 0px 20px;
+    min-width: 114px;
+    height: 56px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.terms{
+    color: white;
+    opacity: 0.7;
+    text-decoration: underline;
+    font-size: 11px;
+}
+
+.showsDiv{
+position: relative;
+text-align: center;
+color: white;
+width: 100%;
+height: 100vh;
+background-image: url(https://www.hulu.com/static/hitch/s3/2019-11/Welcome-ContentBlock-Desktop%20.jpg?jG5AfMZ.bGHD8c3NgPVsML79Im6UkUSW);
+background-size: cover;
+}
+
+/* .shows{
+    width: 100vw;
+    height: 70vh;  
+}
+
+.picture3{
+width: 100%;
+height: auto;
+object-fit: contain;
+} */
