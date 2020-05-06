@@ -166,10 +166,21 @@ margin: 5px;
     letter-spacing: 1px;
     text-align: center;
     margin: auto;
+    /* text-decoration: none; */
     /* position: absolute;
     top: 65%;
     left: 38%; */
     /* margin: 0px -150px -60px 0px; */
+}
+
+#aTag{
+text-decoration: none;
+color: black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
   .legal{
@@ -325,22 +336,23 @@ margin: 5px;
 }
 
 .showsDiv{
-position: relative;
+/* position: relative; */
 text-align: center;
 color: white;
-width: 100%;
-height: 130vh;
+width: 100vw;
+height: 115vh;
 background-image: url(https://www.hulu.com/static/hitch/s3/2019-11/Welcome-ContentBlock-Desktop%20.jpg?jG5AfMZ.bGHD8c3NgPVsML79Im6UkUSW);
-background-size: cover;
+background-size: 100vw;
+background-repeat: no-repeat;
 }
 
 /* .shows{
     width: 100vw;
     height: 70vh;  
-}
+} 
 
 .picture3{
 width: 100%;
 height: auto;
 object-fit: contain;
-} */
+}  */
